@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border: 5px solid;
+            box-sizing: border-box;
+            border-radius: 50%;
+        }
+        .circle1{
+            left: 0;
+            top: 0;
+            border-color: blue;
+            z-index: 9;
+        }
+        .circle2{
+            left: 70px;
+            top: 0;
+            border-color: black;
+            z-index: 2;
+        }
+        .circle3{
+            left: 140px;
+            top: 0;
+            border-color: red;
+            z-index: 9;
+        }
+        .circle4{
+            left: 35px;
+            top: 50px;
+            border-color: yellow;
+            z-index: 4;
+        }
+        .circle5{
+            left: 105px;
+            top: 50px;
+            border-color: green;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="item circle1"></div>
+    <div class="item circle2"></div>
+    <div class="item circle3"></div>
+    <div class="item circle4"></div>
+    <div class="item circle5"></div>
+</body>
+</html>
