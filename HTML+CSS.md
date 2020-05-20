@@ -1770,3 +1770,18 @@ text-align:
 - justify: 除最后一行外，分散对齐
 
 ## 制作一个三角形
+
+## direction 和 writing-mode
+
+开始 start -> 结束 end
+左 left -> 右 end
+
+开始和结束是相对的，不同国家有不同的习惯
+
+左右是绝对的
+
+direction设置的是开始到结束的方向
+
+writing-mode：设置文字书写方向
+
+## utf-8字符
