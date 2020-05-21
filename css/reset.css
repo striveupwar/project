@@ -46,3 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* 重置文本框 */
+input{
+	border: none;
+	outline: none;
+	outline-offset: 0;
+}
+
+/* 重置按钮 */
+button{
+	border: none;
+	outline: none;
+	outline-offset: 0;
+	background: initial;
+	padding: 0;
+}
