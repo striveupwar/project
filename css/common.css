@@ -1,0 +1,19 @@
+/* 多页面共享的css代码 */
+
+body{
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
