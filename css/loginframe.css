@@ -1,0 +1,105 @@
+@import "reset.css";
+@import "common.css";
+@import "//at.alicdn.com/t/font_1213967_nflh1kifv0j.css";
+
+
+/* 统一设置 */
+
+a{
+    color: #41ac52;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    border: 1px solid #e4e6e5;
+    box-sizing: border-box;
+    height: 34px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* 
+    更多的缩进
+*/
+input[type="text"].more-text-indent{
+    padding-left: 60px;
+}
+
+/* 统一设置结束 */
+
+.container{
+    width: 300px;
+    height: 300px;
+    line-height: 2;
+    /* padding: 30px 10px 10px 10px; */
+    padding: 10px;
+    padding-top: 30px;
+    color: #9b9b9b;
+}
+
+.container .login .switch-menu{
+    border-bottom: 1px solid #ececec;
+    font-size: 13px;
+}
+
+.container .login .switch-menu span{
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container .login .switch-menu span.selected{
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #494949;
+    margin-bottom: -1px;
+}
+
+.container .login .form .form-item{
+    margin: 10px 0;
+    position: relative;
+}
+
+.container .login .form .form-item .txt{
+    font-size: 12px;
+}
+
+.container .login .form .form-item .country-code{
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    top: 5px;
+    left: 0;
+    text-align: center;
+    font: #333;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    border-right: 1px solid #e4e6e5;
+}
+
+.container .login .form .form-item .country-code .choose-area{
+    /* 铺满整个视口，选择背景为半透明的白色 */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.container .login .form .form-item .country-code .choose-area .center{
+    width: 285px;
+    height: 225px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
