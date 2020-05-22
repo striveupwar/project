@@ -1,6 +1,5 @@
 @import "reset.css";
 @import "common.css";
-@import "//at.alicdn.com/t/font_1213967_nflh1kifv0j.css";
 
 
 /* 统一设置 */
@@ -36,7 +35,7 @@ input[type="text"].more-text-indent{
     /* padding: 30px 10px 10px 10px; */
     padding: 10px;
     padding-top: 30px;
-    color: #9b9b9b;
+    color: #000;
 }
 
 .container .login .switch-menu{
@@ -102,4 +101,50 @@ input[type="text"].more-text-indent{
     top: 0;
     bottom: 0;
     margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    cursor: auto;
+    overflow: hidden;
+}
+
+.container .login .form .form-item .country-code .choose-area .center .title{
+    background: #ebf5eb;
+    height: 42px;
+    line-height: 42px;
+    text-align: left;
+    padding-left: 10px;
+    color: #060;
+    font-weight: bold;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul{
+    height: 180px;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li{
+    height: 38px;
+    line-height: 38px;
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li:last-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li .right{
+    color: #aaa;
+    font-weight: normal;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li.selected{
+    color: #42bd56;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li.selected .right{
+    color: inherit;
 }
