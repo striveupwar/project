@@ -35,7 +35,9 @@ input[type="text"].more-text-indent{
     /* padding: 30px 10px 10px 10px; */
     padding: 10px;
     padding-top: 30px;
-    color: #ccc;
+    color: #9b9b9b;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .container .login .switch-menu{
@@ -44,7 +46,7 @@ input[type="text"].more-text-indent{
 }
 
 .container .login .switch-menu span{
-    width: 150px;
+    width: 50%;
     text-align: center;
     cursor: pointer;
 }
@@ -204,7 +206,7 @@ input[type="text"].more-text-indent{
 .container .qrcode .code{
     text-align: center;
     font-size: 0;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .container .qrcode .code img{
@@ -218,4 +220,45 @@ input[type="text"].more-text-indent{
     line-height: 25px;
     background: rgba(0,0,0,.08);
     color: #494949;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.container .change{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+}
+
+.container .change .icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.container .change .icon.icon-qrcode{
+    background: url("../img/icon-qrcode.png") no-repeat left top/100% 100%;
+}
+
+.container .change .icon.icon-pc{
+    background: url("../img/icon-pc.png") no-repeat left top/100% 100%;
+}
+
+.container .pointer{
+    position: absolute;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid rgba(66,189,86,.3);
+    color: #666;
+    font-size: 13px;
+    background: #f5faf9;
+    right: 50px;
+    top: 0px;
+    padding: 0 5px;
+    border-radius: 4px;
 }
