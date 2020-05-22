@@ -1,4 +1,4 @@
-@import "//at.alicdn.com/t/font_1834681_xuxkthq7xe.css";
+@import "//at.alicdn.com/t/font_1834681_gmofnrmksm.css";
 /* 多页面共享的css代码 */
 
 body{
@@ -17,4 +17,21 @@ body{
     content: "";
     display: block;
     clear: both;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    background: #41ac52;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.btn:disabled{
+    background: rgba(66,189,86,.5);
+    cursor: not-allowed;
 }
