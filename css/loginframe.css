@@ -35,7 +35,7 @@ input[type="text"].more-text-indent{
     /* padding: 30px 10px 10px 10px; */
     padding: 10px;
     padding-top: 30px;
-    color: #000;
+    color: #ccc;
 }
 
 .container .login .switch-menu{
@@ -59,6 +59,7 @@ input[type="text"].more-text-indent{
 .container .login .form .form-item{
     margin: 10px 0;
     position: relative;
+    font-size: 13px;
 }
 
 .container .login .form .form-item .txt{
@@ -147,4 +148,74 @@ input[type="text"].more-text-indent{
 
 .container .login .form .form-item .country-code .choose-area .center ul li.selected .right{
     color: inherit;
+}
+
+.container .login .form .form-item .country-code .choose-area .center ul li.selected .iconfont{
+    margin-left: 10px;
+}
+
+.container .form-item .ab-right{
+    position: absolute;
+    right: 7px;
+    top: 5px;
+}
+
+.container .form-item .btn{
+    width: 100%;
+    height: 34px;
+    font-size: 15px;
+}
+
+.container .form-item.tip{
+    font-size: 12px;
+    color: #333;
+}
+
+.container .login .bottom{
+    border-top: 1px solid #ddd;
+}
+
+.container .login .bottom .msg{
+    font-size: 11px;
+    vertical-align: 2px;
+}
+
+.container .login .bottom .iconfont{
+    margin-left: 12px;
+}
+
+.container .login .bottom .iconfont.iconweixin{
+    color: #34950E;
+}
+
+.container .login .bottom .iconfont.iconweibo{
+    color: #EA5D5C;
+}
+
+.container .qrcode{
+    font-size: 13px;
+}
+
+.container .qrcode .title{
+    color: #333;
+    border-bottom: 1px solid #ececec;
+}
+
+.container .qrcode .code{
+    text-align: center;
+    font-size: 0;
+    margin: 20px 0;
+}
+
+.container .qrcode .code img{
+    width: 170px;
+    height: 170px;
+}
+
+.container .qrcode .tip{
+    width: 183px;
+    height: 25px;
+    line-height: 25px;
+    background: rgba(0,0,0,.08);
+    color: #494949;
 }
