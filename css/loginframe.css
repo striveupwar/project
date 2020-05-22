@@ -173,25 +173,25 @@ input[type="text"].more-text-indent{
     color: #333;
 }
 
-.container .login .bottom{
+.container .bottom{
     border-top: 1px solid #ddd;
 }
 
-.container .login .bottom .msg{
+.container .bottom .msg{
     font-size: 11px;
     vertical-align: 2px;
 }
 
-.container .login .bottom .iconfont{
+.container .bottom .iconfont{
     margin-left: 12px;
 }
 
-.container .login .bottom .iconfont.iconweixin{
+.container .bottom .iconfont.iconweixin{
     color: #34950E;
 }
 
-.container .login .bottom .iconfont.iconweibo{
-    color: #EA5D5C;
+.container .bottom .iconfont.iconweibo{
+    color: #ea5d5c;
 }
 
 .container .qrcode{
@@ -241,12 +241,16 @@ input[type="text"].more-text-indent{
     cursor: pointer;
 }
 
-.container .change .icon.icon-qrcode{
+/* .container .change .icon.icon-qrcode{
     background: url("../img/icon-qrcode.png") no-repeat left top/100% 100%;
-}
+} */
 
 .container .change .icon.icon-pc{
     background: url("../img/icon-pc.png") no-repeat left top/100% 100%;
+}
+
+.container .change:hover+.pointer{
+    display: block;
 }
 
 .container .pointer{
