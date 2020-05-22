@@ -20,6 +20,14 @@ body{
     margin: 0 auto;
 }
 
+.section{
+    padding: 35px 0;
+}
+
+.section:nth-child(even){
+    background: #f7f7f7;
+}
+
 .left{
     float: left;
 }
@@ -32,6 +40,23 @@ body{
     content: "";
     display: block;
     clear: both;
+}
+
+.aside-left{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.aside-right{
+    float: right;
+    width: 265px;
+    margin-left: 30px;
+}
+
+.main{
+    /* 创建BFC */
+    overflow: hidden;
 }
 
 /* 首页通用样式结束 */
