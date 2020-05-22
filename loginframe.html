@@ -10,20 +10,20 @@
 <body>
     <div class="container">
         <!-- 短信登录/注册，密码登录 -->
-        <div class="login hidden">
+        <div class="login">
             <!-- 切换菜单 -->
             <div class="switch-menu clearfix">
-                <span class="left">
+                <span class="left selected">
                     短信登录/注册
                 </span>
-                <span class="right selected">
+                <span class="right">
                     密码登录
                 </span>
             </div>
 
             <form class="form">
                 <!-- 短信登录注册表单 -->
-                <div class="hidden">
+                <!-- <div class="hidden"> -->
                     <div class="form-item">
                         <p class="txt">
                             登录注册表示同意
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <!-- 密码登录 -->
-                <div>
+                <div class="hidden">
                     <div class="form-item tip clearfix">
                         <a href="" class="right">找回密码</a>
                     </div>
@@ -165,7 +165,7 @@
         </div>
 
         <!-- 扫码登录 -->
-        <div class="qrcode">
+        <div class="qrcode hidden">
             <div class="title">
                 二维码登录
             </div>
@@ -175,6 +175,16 @@
             <div class="tip">
                 请打开豆瓣客户端扫一扫
             </div>
+        </div>
+
+        <div class="change">
+            <!-- 通过类名切换图标 -->
+            <!-- <i class="icon icon-qrcode"></i> -->
+            <i class="icon icon-pc"></i>
+        </div>
+
+        <div class="pointer hidden">
+            扫码登录
         </div>
     </div>
 </body>
